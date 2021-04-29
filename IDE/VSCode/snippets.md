@@ -30,7 +30,7 @@ Snippets are specific to languages.
 			"     /**",
 	  "     * Children content",
 	  "     */",
-	  "     children: React.ReactNode;"
+	  "     children: React.ReactNode;",
 			"}",
 			"",
 			"export const $1 = (props: $1Props) => {",
