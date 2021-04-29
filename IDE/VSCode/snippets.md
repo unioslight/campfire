@@ -27,7 +27,10 @@ Snippets are specific to languages.
 			"import React from 'react'",
 			"",
 			"type $1Props = {",
-			"\t",
+			"     /**",
+	  "     * Children content",
+	  "     */",
+	  "     children: React.ReactNode;"
 			"}",
 			"",
 			"export const $1 = (props: $1Props) => {",
@@ -39,6 +42,37 @@ Snippets are specific to languages.
 			"}",
 		],
 		"description": "Typescript React Component with named export"
-	}
+	},
+	"Storybook story": {
+		"prefix": "story",
+		"body": [
+		  "import React from 'react';",
+		  "",
+		  "export default {",
+		  "    title: 'Core/$1',",
+		  "    component: ${1:Text},",
+		  "};",
+		  "",
+		  "const Template = (args) => <$1{...args} />;",
+		  "",
+		  "export const Default = Template.bind({});",
+		  "Default.args = {",
+		  "    children: 'Typography example',",
+		  "};"
+		],
+		"description": "Storybook story"
+	  }
 }
+
+
+"Storybook story": {
+	"prefix": "story",
+	"body": [
+	  "     /**",
+	  "     * Children content",
+	  "     */",
+	  "     children: React.ReactNode;"
+	],
+	"description": "Storybook story"
+  }
 ```
