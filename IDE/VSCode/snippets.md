@@ -7,24 +7,13 @@ Snippets are specific to languages.
 
 ```Javascript
 {
-	// Place your snippets for typescriptreact here. Each snippet is defined under a snippet name and has a prefix, body and
-	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
-	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the
-	// same ids are connected.
-	// Example:
-	// "Print to console": {
-	// 	"prefix": "log",
-	// 	"body": [
-	// 		"console.log('$1');",
-	// 		"$2"
-	// 	],
-	// 	"description": "Log output to console"
-	// }
-
+	{
 	"Unios Typescript React component": {
-		"prefix": "unreact",
+		"prefix": "react",
 		"body": [
+			"/** @jsxImportSource theme-ui */",
 			"import React from 'react'",
+			"import { ThemeUICSSObject } from '@theme-ui/css';",
 			"",
 			"type $1Props = {",
 			"     /**",
@@ -33,13 +22,21 @@ Snippets are specific to languages.
 	  "     children: React.ReactNode;",
 			"}",
 			"",
-			"export const $1 = (props: $1Props) => {",
+			"let ${1:element}Style: ThemeUICSSObject = {",
+			"    ",
+			"};",
+			"",
+			"export const $1: React.FC<$1Props> = (props) => {",
 				"\treturn (",
-					"\t\t<div>",
+					"\t\t<div sx={${1:element}Style}>",
 						"\t\t\t",
 					"\t\t</div>",
 				"\t)",
 			"}",
+			"",
+			"$1.defaultProps = {",
+			"    ",
+			"};"
 		],
 		"description": "Typescript React Component with named export"
 	},
@@ -61,18 +58,16 @@ Snippets are specific to languages.
 		  "};"
 		],
 		"description": "Storybook story"
+	  },
+
+	  "Theme UI Style": {
+		"prefix": "themeStyle",
+		"body": [
+		  "let ${1:element}Style: ThemeUICSSObject = {",
+		  "    ",
+		  "};"
+		],
+		"description": "Theme UI style object"
 	  }
 }
-
-
-"Storybook story": {
-	"prefix": "story",
-	"body": [
-	  "     /**",
-	  "     * Children content",
-	  "     */",
-	  "     children: React.ReactNode;"
-	],
-	"description": "Storybook story"
-  }
 ```

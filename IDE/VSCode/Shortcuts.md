@@ -1,12 +1,20 @@
 # VSCode
 
-## Shortcuts
+## Suggested Shortcuts
+
+To quickly access shortcuts
+
+1. Open command palette (Ctrl Shift P on Windows)
+2. Search for "keybaord shortcut"
+3. Open "Preferences: Open Keyboard Shortcuts"
+4. Search part of a desired command
 
 ### Wrap selection
 
-1. Open command palette (Ctrl Shift P on Windows) and search for "keybaord shortcut" to open Keyboard Shortcuts config.
-2. Search for "wrap" in keyboard shortcuts
-3. Set "Emmet: Wrap with Abbreviation" to preferred shortcut. Suggest Ctrl + Shift + W since that one is available and in easy reach.
+{
+"key": "shift+alt+w",
+"command": "editor.emmet.action.wrapWithAbbreviation"
+}
 
 How to use
 
@@ -14,3 +22,10 @@ How to use
 2. Press shortcut
 3. Type emmet abbreviation, eg div
 4. Enter
+
+### ES Lint - Fix all auto-fixable problems
+
+{
+"key": "ctrl+shift+alt+f",
+"command": "eslint.executeAutofix"
+}
