@@ -9,13 +9,13 @@ This is our playbook. Here you will find a collection of guides for working in t
 - [What we do](./team-overview.md#what-we-do)
 - [Our culture and principles](./team-overview.md#our-culture-and-principles)
 
-### New Starters
+### [New Starters](./new-starters)
 
-- Welcome
-- Startup Checklist
-- Your first day
-- Your first week
-- Ask, often!
+- [Welcome](./new-starters#welcome)
+- [Startup Checklist](./new-starters#startup-checklist)
+- [Your first day](./new-starters#your-first-day)
+- [Your first week](./new-starters#your-first-week)
+- [Ask, often!](./new-starters#ask-often)
 
 ### [How We Work](./how-we-work)
 
