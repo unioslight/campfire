@@ -11,28 +11,21 @@ This is our playbook. Here you will find a collection of guides for working in t
 - [What we do](./team-overview#what-we-do)
 - [Our culture and principles](./team-overview#our-culture-and-principles)
 
-### [How We Work](./how-we-work)
-
-- [Our tech stack](./how-we-work#our-tech-stack)
-- [Development machines](./how-we-work#development-machines)
-- [A typical dev day](./how-we-work#a-typical-dev-day)
-- [Project management](./how-we-work#project-management)
-- [Branching](./how-we-work#branching)
-- [Code style](./how-we-work#code-style)
-
-### [How We Collaborate](./how-we-collaborate)
-
-- [Meetings](./how-we-collaborate#meetings)
-- [Internal communication](./how-we-collaborate#internal-communication)
-- [Project Management](./how-we-collaborate#project-management)
-
 ### New Starters
 
 - Welcome
 - Startup Checklist
 - Your first day
 - Your first week
--
+- Ask, often!
+
+### [How We Work](./how-we-work)
+
+- [Our tech stack](./how-we-work#our-tech-stack)
+- [Development machines](./how-we-work#development-machines)
+- [A typical dev day](./how-we-work#a-typical-dev-day)
+- [Project management](./how-we-work#project-management)
+- [Source control](./how-we-work#source-control)
 
 ### Our Rituals
 
@@ -42,29 +35,28 @@ This is our playbook. Here you will find a collection of guides for working in t
 - Back-to-base Events
 - Hackathons
 
-### [Software Development](./software-development)
+### [How We Collaborate](./how-we-collaborate)
 
-- Our Tech Stack
-- Development Machines
-- Environments
+- [Meetings](./how-we-collaborate#meetings)
+- [Internal communication](./how-we-collaborate#internal-communication)
+- [Project Management](./how-we-collaborate#project-management)
+
+### [Developing](./developing)
+
+- [Code style](./developing#code-style)
 - Testing
-- Source Control
+- [Branching strategy](./developing#branching)
+- Feature Toggles
+- Deployment environments
 - Versioning
-- Style Guide
+- README-driven development
+- IDE's
 
 ### Design & Front-end development
 
 - Design System
 - Tools
 - Mobile-aware
-
-Markdown - github flavoured markdown
-
-### Working on Projects
-
-- README-driven projects
-- Branching / Trunk-based Development
-- Feature Toggles
 
 ## Why 'Campfire'?
 

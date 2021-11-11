@@ -57,21 +57,13 @@ TODO:
 
 TODO:
 
-## Source Control
+## Source control
 
 We use [GitHub](https://github.com/) as our repository for source code. The [Unios organisation](https://github.com/unioslight/) is currently administered by Damon.
 
 Please create a GitHub account if you do not already have one (Note: you may use your personal GitHub account to work on Unios projects). Your account will need to be added to the organisation in order to access our projects. Please provide Damon with your GitHub account name to organise this.
 
 Feel free to use HTTPS when cloning projects. If you prefer using an SSH workflow, you can arrange this by speaking with Damon.
-
-## Branching
-
-TODO:
-
-## Code style
-
-TODO:
 
 <br />
 <br />
