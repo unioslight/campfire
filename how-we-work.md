@@ -1,8 +1,6 @@
 # How We Work
 
-<center>
 <img src="./_assets/developers.jpg" alt="Unios Campfire" width="350px" />
-</center>
 
 ## Our tech stack
 

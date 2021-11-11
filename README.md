@@ -1,15 +1,13 @@
 # Campfire
 
-<center>
 <img src="./_assets/campfire.jpg" alt="Unios Campfire" width="350px" />
-</center>
 
 This is our playbook. Here you will find a collection of guides for working in the Digital Products team at Unios.
 
 ### [Team Overview](./team-overview)
 
-- [What we do](./team-overview#what-we-do)
-- [Our culture and principles](./team-overview#our-culture-and-principles)
+- [What we do](./team-overview.md#what-we-do)
+- [Our culture and principles](./team-overview.md#our-culture-and-principles)
 
 ### New Starters
 
@@ -21,11 +19,11 @@ This is our playbook. Here you will find a collection of guides for working in t
 
 ### [How We Work](./how-we-work)
 
-- [Our tech stack](./how-we-work#our-tech-stack)
-- [Development machines](./how-we-work#development-machines)
-- [A typical dev day](./how-we-work#a-typical-dev-day)
-- [Project management](./how-we-work#project-management)
-- [Source control](./how-we-work#source-control)
+- [Our tech stack](./how-we-work.md#our-tech-stack)
+- [Development machines](./how-we-work.md#development-machines)
+- [A typical dev day](./how-we-work.md#a-typical-dev-day)
+- [Project management](./how-we-work.md#project-management)
+- [Source control](./how-we-work.md#source-control)
 
 ### Our Rituals
 
@@ -37,15 +35,15 @@ This is our playbook. Here you will find a collection of guides for working in t
 
 ### [How We Collaborate](./how-we-collaborate)
 
-- [Meetings](./how-we-collaborate#meetings)
-- [Internal communication](./how-we-collaborate#internal-communication)
-- [Project Management](./how-we-collaborate#project-management)
+- [Meetings](./how-we-collaborate.md#meetings)
+- [Internal communication](./how-we-collaborate.md#internal-communication)
+- [Project Management](./how-we-collaborate.md#project-management)
 
 ### [Developing](./developing)
 
-- [Code style](./developing#code-style)
+- [Code style](./developing.md#code-style)
 - Testing
-- [Branching strategy](./developing#branching)
+- [Branching strategy](./developing.md#branching)
 - Feature Toggles
 - Deployment environments
 - Versioning

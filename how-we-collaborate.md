@@ -1,8 +1,6 @@
 # How We Collaborate
 
-<center>
 <img src="./_assets/teamwork.jpg" alt="Unios Campfire" width="350px" />
-</center>
 
 ## Meetings
 
