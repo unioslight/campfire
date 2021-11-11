@@ -1,6 +1,6 @@
 # Team Overview
 
-<img src="./_assets/team.jpg" alt="Unios Campfire" width="350px" />
+<img src="./images/team.jpg" alt="Unios Campfire" width="350px" />
 
 ## What we do
 
@@ -37,9 +37,9 @@ TODO:
 
 ## Roles and Responsibilities
 
-<img src="./_assets/junior-developer-senior-developer.png" alt="Unios Campfire" width="300px" />
+<img src="./images/junior-developer-senior-developer.png" alt="Unios Campfire" width="300px" />
 
 <br />
 <br />
 <br />
-<img src="./_assets/unios-wordmark-black.png" alt="Unios" width="150px" />
+<img src="./images/unios-wordmark-black.png" alt="Unios" width="150px" />

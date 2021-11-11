@@ -1,6 +1,6 @@
 # How We Collaborate
 
-<img src="./_assets/teamwork.jpg" alt="Unios Campfire" width="350px" />
+<img src="./images/teamwork.jpg" alt="Unios Campfire" width="350px" />
 
 ## Meetings
 
@@ -58,4 +58,4 @@ TODO:
 <br />
 <br />
 <br />
-<img src="./_assets/unios-wordmark-black.png" alt="Unios" width="150px" />
+<img src="./images/unios-wordmark-black.png" alt="Unios" width="150px" />

@@ -1,6 +1,6 @@
 # How We Work
 
-<img src="./_assets/developers.jpg" alt="Unios Campfire" width="350px" />
+<img src="./images/developers.jpg" alt="Unios Campfire" width="350px" />
 
 ## Our tech stack
 
@@ -66,4 +66,4 @@ Feel free to use HTTPS when cloning projects. If you prefer using an SSH workflo
 <br />
 <br />
 <br />
-<img src="./_assets/unios-wordmark-black.png" alt="Unios" width="150px" />
+<img src="./images/unios-wordmark-black.png" alt="Unios" width="150px" />

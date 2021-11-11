@@ -1,6 +1,6 @@
 # Campfire
 
-<img src="./_assets/campfire.jpg" alt="Unios Campfire" width="350px" />
+<img src="./images/campfire.jpg" alt="Unios Campfire" width="350px" />
 
 This is our playbook. Here you will find a collection of guides for working in the Digital Products team at Unios.
 
@@ -67,4 +67,4 @@ We are striving to build this type of open and collaborative community in the Di
 <br />
 <br />
 <br />
-<img src="./_assets/unios-wordmark-black.png" alt="Unios" width="150px" />
+<img src="./images/unios-wordmark-black.png" alt="Unios" width="150px" />
