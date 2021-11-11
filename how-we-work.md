@@ -2,6 +2,8 @@
 
 <img src="./images/developers.jpg" alt="Unios Campfire" width="350px" />
 
+_"If the only tool you have is a hammer, it's hard to eat spaghetti." - David Allen_
+
 ## Our tech stack
 
 Our applications are built using:
@@ -24,11 +26,11 @@ Additionally, for infrastructure management, we use:
 - [Docker](https://www.docker.com/) for environment/infrastructure curation
 - [Jenkins](https://www.jenkins.io/) for task automation
 
-This is our foundation technology stack serves as a _useful starting point_. At all times, consideration must be given to whether or not we are using the [best tool for the job](./principles-and-philosophy.md###use-the-best-tool-for-the-job).
+This is our foundation; our starting point for new projects. At all times, consideration must be given to whether or not we are using the [best tool for the job](./principles-and-philosophy.md###use-the-best-tool-for-the-job).
 
 ## Development Machines
 
-Some developers love [Mac](https://github.com/unioslight/macdev); some like Windows; some have a favorite flavour of Linux. Each developer in our team is provided with a laptop running the operating system they feel most comfortable working with. Also, our office deskspaces are equiped with docking stations and dual monitors to make connecting-up at the office as easy as possible.
+Some developers love [Mac](https://github.com/unioslight/macdev); some like Windows; some have a favourite flavour of Linux. Each developer in our team is provided with a laptop running the operating system they feel most comfortable working with. Also, our office deskspaces are equiped with docking stations and dual monitors to make connecting-up at the office as easy as possible.
 
 #### Required Software
 
@@ -59,7 +61,7 @@ TODO:
 
 We use [GitHub](https://github.com/) as our repository for source code. The [Unios organisation](https://github.com/unioslight/) is currently administered by Damon.
 
-Please create a GitHub account if you do not already have one (Note: you may use your personal GitHub account to work on Unios projects). Your account will need to be added to the organisation in order to access our projects. Please provide Damon with your GitHub account name to organise this.
+Please create a GitHub account if you do not already have one (Note: you may use your personal GitHub account to work on Unios projects). Your account will need to be added to the organisation in order to access our projects. Please contact Damon to organise this.
 
 Feel free to use HTTPS when cloning projects. If you prefer using an SSH workflow, you can arrange this by speaking with Damon.
 

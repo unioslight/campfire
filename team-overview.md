@@ -2,6 +2,8 @@
 
 <img src="./images/team.jpg" alt="Unios Campfire" width="350px" />
 
+_"The task of the software development team is to engineer the illusion of simplicity." - Grady Booch_
+
 ## What we do
 
 The Digital Products team designs, develops and maintains software for Unios. We are a small, geographically distributed team with members working out of our headquarters in Perth, Australia; and our office in Ho Chi Minh City, Vietnam.
@@ -17,13 +19,15 @@ _NOTE: Details of roles and reporting lines throughout Unios can be found in the
 
 ## Our culture and principles
 
-TODO:
-
 ### Continuous improvement
 
 TODO:
 
-### Automate wherever possible
+## Eager integration
+
+TODO:
+
+### Automate all the things
 
 TODO:
 

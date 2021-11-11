@@ -2,6 +2,8 @@
 
 <img src="./images/teamwork.jpg" alt="Unios Campfire" width="350px" />
 
+_"If you want to go fast, go alone. If you want to go far, go together." - African Proverb_
+
 ## Meetings
 
 TODO:
