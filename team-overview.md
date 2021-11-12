@@ -35,13 +35,29 @@ TODO:
 
 Overzealous devotion to particular platforms and technology stacks can sometimes put developers in the unfortunate position of _banging a square peg into a round hole_. We are cautious of this and broadly adopt the philosophy of "using the best tool for the job".
 
-### DevOps: Developers own _everything_
+### DevOps
 
-TODO:
+Historically, organisations have dilineated between the responsibilities of developers (i.e. those who write the code) and I.T. operations (i.e. those who deploy and manage the solution). Such an approach lends itself to focussed expertise, formalised communication channels, and, rigid release activities.
+
+In contrast to this, our team adopts a DevOps philosophy, merging the realms of software development and system administration. Put simply, our developers "own the entire lifecycle": collectively, we are responsible for coding the solution, setting up required infrastructure, deploying projects, and all maintenance tasks thereafter. This approach lends itself to increased agility.
 
 ## Roles and Responsibilities
 
-<img src="./images/junior-developer-senior-developer.png" alt="Unios Campfire" width="300px" />
+### Software Developer
+
+TODO:
+
+### Front-end Software Developer
+
+TODO:
+
+### Lead Software Developer
+
+TODO:
+
+### Principal Developer
+
+TODO:
 
 <br />
 <br />
