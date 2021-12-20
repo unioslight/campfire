@@ -40,7 +40,7 @@ Regardless of platform, there are some applications that will need to be install
 
 - [Microsoft Teams](https://www.microsoft.com/en-au/microsoft-teams/download-app) for Unios-wide communication
 - [Slack](https://slack.com/) for dev-coms and chat-ops
-- [Asana](https://asana.com/) for project management
+- [Jira](https://unios.atlassian.net/) for project management
 - [Quip](https://quip.com/) for document/notes management
 - [LastPass](https://www.lastpass.com/) for credential management
 
@@ -55,7 +55,26 @@ TODO:
 
 ## Project management
 
-TODO:
+### Spring methodology
+
+We follow [Jira's specified approach](https://www.atlassian.com/agile) for working agile. We break down tasks to sprints, epics, stories and substasks.
+We currently use Scrum as deadlines and requirements are relatively well defined.
+
+As Digital Products moves to a product ownership model, our approach is likely to move toward Kanban.
+
+### Estimating
+
+When estimating stories we use the points system.
+A breakdown of points follows:
+
+| How much is known about the task | OR How much work effort | Sprint points | Actions                                                    |
+| -------------------------------- | ----------------------: | ------------: | ---------------------------------------------------------- |
+| Everything                       |              ~ 0.5 days |             1 |
+| Almost everything                |                ~ 1 days |             2 |
+| Something                        |                ~ 2 days |             3 |
+| Almost nothing                   |              A few days |             5 |
+| Nothing                          |                ~ 1 week |             8 | Should be split into smaller stories before work commences |
+| Nothing                          |        More than 1 week |            13 | Must be split into smaller stories before work commences   |
 
 ## Source control
 
