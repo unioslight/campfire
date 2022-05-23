@@ -60,7 +60,7 @@ This is our playbook. Here you will find a collection of guides for working in t
 
 - [Omni](https://github.com/orgs/unioslight/omni)
 - [Looking Glass](https://github.com/orgs/unioslight/looking-glass)
-- [Fishbowl](./fishbowl-notes.md)
+- [Fishbowl ERP](./fishbowl-notes.md)
 
 ## Why 'Campfire'?
 
