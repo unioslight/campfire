@@ -34,7 +34,9 @@ We aware of at least two client libraries that can be used to “integrate” wi
 
 #### ILC Fishbowl Client
 
-Israel Lopez Consulting (ILC) provide a C# library for integration with Fishbowl. **_We have purchased and own a perpetual license for this library_**, which entitles us to use the library in production and gain access to all future updates of the client library. Copies of the library binaries are stored on the file server here: TODO
+Israel Lopez Consulting (ILC) provide a C# library for integration with Fishbowl. **_We have purchased and own a perpetual license for this library_**, which entitles us to use the library in production and gain access to all future updates of the client library. Copies of the library binaries are stored on the file server here: 
+
+`/Volumes/Marketing/Digital Products/ILC Fishbowl Client`
 
 A proof of concept for the use of this library exists in the following repository:
 
@@ -205,11 +207,11 @@ The following is an indicative SQL query drawing data from these tables:
 ```sql
 -- returns products that have more than a single product category
 select
-p.id as "productId",
-p.num as "productCode",
-coalesce(p.description, prt.description) as "productName",
-group_concat(pt.name) as "category",
-coalesce(p.customFields->>'$."2"."value"', 'Assembled') as "stockMode"
+    p.id as "productId",
+    p.num as "productCode",
+    coalesce(p.description, prt.description) as "productName",
+    group_concat(pt.name) as "category",
+    coalesce(p.customFields->>'$."2"."value"', 'Assembled') as "stockMode"
 from product p
 inner join part prt on prt.id = p.partId
 left join producttotree p2t on p2t.productId = p.id
