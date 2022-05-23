@@ -207,11 +207,11 @@ The following is an indicative SQL query drawing data from these tables:
 ```sql
 -- returns products that have more than a single product category
 select
-  p.id as "productId",
-  p.num as "productCode",
-  coalesce(p.description, prt.description) as "productName",
-  group_concat(pt.name) as "category",
-  coalesce(p.customFields->>'$."2"."value"', 'Assembled') as "stockMode"
+    p.id as "productId",
+    p.num as "productCode",
+    coalesce(p.description, prt.description) as "productName",
+    group_concat(pt.name) as "category",
+    coalesce(p.customFields->>'$."2"."value"', 'Assembled') as "stockMode"
 from product p
 inner join part prt on prt.id = p.partId
 left join producttotree p2t on p2t.productId = p.id
