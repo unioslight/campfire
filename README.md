@@ -4,18 +4,18 @@
 
 This is our playbook. Here you will find a collection of guides for working in the Digital Products team at Unios.
 
-### [Team Overview](./team-overview)
+### [Team Overview](./team-overview.md)
 
 - [What we do](./team-overview.md#what-we-do)
 - [Our culture and principles](./team-overview.md#our-culture-and-principles)
 
 ### [New Starters](./new-starters)
 
-- [Welcome](./new-starters#welcome)
-- [Startup Checklist](./new-starters#startup-checklist)
-- [Your first day](./new-starters#your-first-day)
+- [Welcome](./new-starters.md#welcome)
+- [Startup Checklist](./new-starters.md#startup-checklist)
+- [Your first day](./new-starters.md#your-first-day)
 - [Your first week](./new-starters#your-first-week)
-- [Ask, often!](./new-starters#ask-often)
+- [Ask, often!](./new-starters.md#ask-often)
 
 ### [How We Work](./how-we-work)
 
@@ -33,17 +33,17 @@ This is our playbook. Here you will find a collection of guides for working in t
 - Back-to-base Events
 - Hackathons
 
-### [How We Collaborate](./how-we-collaborate)
+### [How We Collaborate](./how-we-collaborate.md)
 
 - [Meetings](./how-we-collaborate.md#meetings)
 - [Internal communication](./how-we-collaborate.md#internal-communication)
 - [Project Management](./how-we-collaborate.md#project-management)
 
-### [Developing](./developing)
+### Developing
 
-- [Code style](./developing.md#code-style)
+- Code style
 - Testing
-- [Branching strategy](./developing.md#branching)
+- Branching strategy
 - Feature Toggles
 - Deployment environments
 - Versioning
@@ -61,6 +61,7 @@ This is our playbook. Here you will find a collection of guides for working in t
 - [Omni](https://github.com/orgs/unioslight/omni)
 - [Looking Glass](https://github.com/orgs/unioslight/looking-glass)
 - [Fishbowl ERP](./fishbowl-notes.md)
+- [Meilisearch](./meilisearch.md)
 
 ## Why 'Campfire'?
 
