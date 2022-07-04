@@ -30,6 +30,8 @@ Any additional API keys needed have to be created either through the cURL/RESTfu
 
 Likewise, any index-level settings that need applying have to be done the same way.
 
+> There's an available repo to manage server settings via UI that we may leverage: https://github.com/SaraVieira/uirecord
+
 ## Deployment
 
 TODO
