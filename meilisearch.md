@@ -9,7 +9,7 @@ Meilisearch is the search engine of choice for our [website](https://github.com/
 - Simplicity in nature while being able to provide most of the necessary features as Elastic Search, Algolia etc.
 - And potentially easy to incorporate our Omni data as well?
 
-## Configuration notes
+## Setup notes
 
 As a search engine providing the RESTful API for consumption, Meilisearch requires a running server instance to be used. Both local setup and production deployment can be found at the [official quick start guide](https://docs.meilisearch.com/learn/getting_started/quick_start.html#setup-and-installation).
 
