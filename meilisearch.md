@@ -11,7 +11,15 @@ Meilisearch is the search engine of choice for our [website](https://github.com/
 
 ## Setup notes
 
-As a search engine providing the RESTful API for consumption, Meilisearch requires a running server instance to be used. Both local setup and production deployment can be found at the [official quick start guide](https://docs.meilisearch.com/learn/getting_started/quick_start.html#setup-and-installation).
+As a search engine providing the RESTful API for consumption, Meilisearch requires a running server instance to be used. The local setup may be done via docker, simply run the following commands in CLI to pull the latest docker image of meilisearch and launch its server with a master key:
+
+```sh
+docker pull getmeili/meilisearch:latest
+
+docker run -it --rm -p 7700:7700 -e MEILI_MASTER_KEY=masterKey getmeili/meilisearch:latest meilisearch --env="development"
+```
+
+For the production deployment, we use AWS. Refer to [Meilisearch AWS cookbook](https://docs.meilisearch.com/learn/cookbooks/aws.html).
 
 The server is secured by a master key which is configured at start up. The 2 default API keys will be provisioned along:
 
