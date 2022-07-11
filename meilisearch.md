@@ -5,7 +5,7 @@
 Meilisearch is the search engine of choice for our [website](https://github.com/unioslight/website). It provides the following benefits that fit our use cases:
 
 - Little to zero configuration, everything simply works out of the box.
-- An available Strapi plugin that eases the steps needed to integrate with our Strapi content.
+- An available [Strapi plugin](https://github.com/meilisearch/strapi-plugin-meilisearch) that eases the steps needed to integrate with our Strapi content.
 - Simplicity in nature while being able to provide most of the necessary features as Elastic Search, Algolia etc.
 - And potentially easy to incorporate our Omni data as well?
 
