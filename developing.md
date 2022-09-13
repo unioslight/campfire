@@ -51,7 +51,7 @@ Major piece of functionality or user story is not working as intended. For examp
 
 #### Medium
 
-A bug or issue that can be worked around, but is significant to warrant resolving. For example, poor UX, content hidden until users perform a particular action, obvious styling issues (broken design), bug preventing use of a priority feature (avatar image etc).
+A bug or issue that can be worked around, but is significant to warrant resolving. For example, poor UX, content hidden until users perform a particular action, obvious styling issues (broken design), bug preventing use of a low priority feature (avatar image etc).
 
 ###### Medium should be fixed as time permits, before a release. We'd need a good reason not to.
 
