@@ -41,7 +41,7 @@ Bugs should include
 
 #### Highest
 
-Whole section is completely broken, major issue affecting business on website. For example, users cant log in, no produts visible in product page.
+Whole section is completely broken, major issue affecting business on website. For example, users cant log in, no products visible in product page.
 
 #### High
 
