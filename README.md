@@ -39,10 +39,10 @@ This is our playbook. Here you will find a collection of guides for working in t
 - [Internal communication](./how-we-collaborate.md#internal-communication)
 - [Project Management](./how-we-collaborate.md#project-management)
 
-### Developing
+### [Developing](./developing.md)
 
 - Code style
-- Testing
+- [Testing](./developing.md#Testing)
 - Branching strategy
 - Feature Toggles
 - Deployment environments
