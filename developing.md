@@ -45,7 +45,7 @@ Whole section is completely broken, major issue affecting business on website. F
 
 #### High
 
-Major piece of functionality or user story is not working as intended. For example, Google map not displaying broken, missing or inaccessible page, one or more products not displaying, configurator tool throwing errors for one or more produts.
+Major piece of functionality or user story is not working as intended. For example, Google maps are not rendering, a missing or inaccessible page, one or more products not displaying, configurator tool throwing errors for one or more produts.
 
 ###### Highest / High issues require immediate attention.
 
