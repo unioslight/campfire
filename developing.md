@@ -32,6 +32,7 @@ Bugs should include
 
 - Expected result and actual result (bug description)
 - Steps to reproduce or screen recording
+- Device, OS and browser used
 - URL (if not included in steps to reproduce)
 - Any received error messages, especially if difficult to reproduce
 - Screenshot
