@@ -45,7 +45,7 @@ This is our playbook. Here you will find a collection of guides for working in t
 - [Testing](./developing.md#Testing)
 - Branching strategy
 - Feature Toggles
-- Deployment environments
+- Deployments
 - Versioning
 - README-driven development
 - IDE's

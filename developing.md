@@ -64,7 +64,7 @@ Minor inconveniences that can be overlooked. Minor style issues, console warning
 
 ### UAT phase
 
-Bugs can be raised in Jira using a service desk issue submission interface dashboard party
+Bugs can be raised in Jira using a service desk issue submission interface dashboard party.
 
 ### Automated testing
 
@@ -72,11 +72,25 @@ For the Toolbox project, we currently use Cypress for automated end-to-end tests
 
 ## Branching strategy
 
-## Feature Toggles
+We use develop, staging, main and various individual feature branches.
 
-## Deployment environments
+One branch per Jira ticket, or per dev task. Branches should be named with the ticket in its name in the format of "PROJECTNUMBER-task-description". For example, "WTSD-123-fix-filter-state".
 
-## Versioning
+Our releases are handled via the develop branch. When releasing to main, we create a new semantic versioning tag and generate a new set of release notes in Github.
+
+Develop branch is treated as a pre-production - no code should exist in develop that is not peer reviewed ready to be merged into main.
+
+Main is always the priority for a new branch
+
+If you need an in-progress fix from develop, or you feel you may conflict with existing work in develop, you can branch from develop but you can no longer PR into main directly. Only back into develop.
+
+If a priority fix is needed, we have a great CI CD pipeline to get those quickly. In these cases, you should branch from main, and make a PR to merge back into main.
+
+## Databases
+
+Database access is restricted to read only access for developer users.
+
+When debugging any work against production environments, for example using the production database in your local env, developers must pair up.
 
 ## README-driven development
 
